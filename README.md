@@ -6,9 +6,6 @@
 # Description
 毎週日曜の 21:00( 予定 ) になると登録してある esa.io の記事の更新の有無を取得し、slack の特定のチャンネルに対して通知するシステム。使用言語は Python3。slackbot 自体は Heroku 上で稼働。
 
-※ heroku scheduler では好きに間隔がいじれない！毎時、毎日実行みたいな形になる。。。
-最長で毎日実行。。。さすがに頻度が高すぎるので、スクリプトで制限する方向で考える。
-
 ### Directry
 ```
 slackbot-announce_esa/
